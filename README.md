@@ -33,3 +33,17 @@ To run the solution, provide the input format as described below:
 
 ### Example
 Input:
+This represents:
+- **Initial State**: All disks (1, 2, 3) are on peg A.{[1,2,3],[],[]}
+- **Final State**: All disks (1, 2, 3) are on peg C.{[],[],[1,2,3]}
+
+  Output:
+  blue move and clockwise direction: Total steps: 7, goal is reached
+
+
+  
+### Explanation
+
+- The solution begins with a blue move (`Disk 1`) in a clockwise direction.
+- The sequence of moves follows the Tower of Hanoi recursive logic with the smallest disk always moving first.
+- After 7 moves, the final state is reached.
